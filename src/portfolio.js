@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  // homepage: 'https://rjshkhr.github.io/cleanfolio',
   title: 'Professional Portfolio.',
 }
 
@@ -22,7 +22,9 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Cruise Automation',
+    img: 'https://pubaccessbucket.s3.amazonaws.com/images/cruise-logo.png',
+    alt:'The company logo for Cruise Automation',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -30,7 +32,9 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Microsoft',
+    img:'https://pubaccessbucket.s3.amazonaws.com/images/microsoft_logo.png',
+    alt:'The company logo for Microsoft',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -38,7 +42,9 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'Intel',
+    img: 'https://pubaccessbucket.s3.amazonaws.com/images/intel_logo.png',
+    alt:'The company logo for Intel',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],

@@ -35,51 +35,95 @@
   margin-right: 1em;
 }
 
-/* This is the CSS style for the flip card */
+/*== This is the CSS style for the flip card ==*/
 /* Container for 3D perspective */
 .card {
-  width: 200px;
+  width: 275px;
   height: 300px;
   perspective: 1000px; /* Adds 3D perspective */
   position: relative;
+  overflow: hidden; /* Ensures contents don't overflow the card */
 }
 
-/* Front and back of the card */
 .card-side {
   width: 100%;
   height: 100%;
   position: absolute;
   backface-visibility: hidden; /* Hides the back side when rotated */
   transition: transform 0.6s;
+  display: flex;
+  flex-direction: column; /* Stacks content and button */
+  justify-content: space-between; /* Keeps the content on top and button on the bottom */
+  overflow: hidden; /* Ensures the contents don't exceed the card bounds */
 }
 
-/* Front card styles */
 .front {
   background-color: lightblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-/* Back card styles */
 .back {
   background-color: lightcoral;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transform: rotateY(180deg); /* Initially hides the back by rotating */
 }
 
-/* Flip the card on hover */
-.card:hover .front {
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden; /* Prevents content from overflowing */
+}
+
+.image-container {
+  width: 300px; /* Fixed width for the image container */
+  height: 300px; /* Fixed height for the image container */
+  overflow: hidden; /* Ensures any overflow is hidden */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the image vertically and horizontally */
+}
+
+.image-container img {
+  width: 100%; /* Scale the image to fit the container */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 100%; /* Ensure the image does not exceed the container's height */
+  object-fit: contain; /* Ensures the entire image is visible without cropping */
+  border-radius: 10px; /* Optional: Gives images rounded corners */
+}
+
+.card-button-container {
+  display: flex;
+  justify-content: flex-end; /* Aligns the button to the right */
+  padding: 10px;
+}
+
+.flip-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.flip-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.card.flipped .front {
   transform: rotateY(180deg); /* Front side flips away */
 }
 
-.card:hover .back {
+.card.flipped .back {
   transform: rotateY(360deg); /* Back side becomes visible */
 }
 
 
+/* ======================= */
 
 @media (max-width: 600px) {
   .app .about {
