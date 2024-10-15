@@ -7,13 +7,14 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Edward Mancho',
-  role: 'Full Stack DevOps Engineer',
+  role: 'Software Engineer + Creative',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "I'm a software engineer with four years of experience working at companies like Cruise Automation, Microsoft, and Intel. The roles I've held during those years are: Software Engineer, Site Reliability Engineer, Infrastructure/DevOps Engineer, and Scrum Master. I’ve worked on both backend and frontend development, gaining expertise in full-stack development, API creation, automation, and DevOps practices.",
+  subDescription: "I thrive on creating innovative solutions that merge cutting-edge technology with thoughtful design. My passion for continuous learning drives me to tackle complex challenges. I’m eager to bring this problem-solving mindset to collaborate with diverse teams and push the boundaries of what’s possible.",
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/edward-mancho',
+    github: 'https://github.com/emancho',
   },
 }
 
@@ -65,7 +66,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'eddmancho@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
