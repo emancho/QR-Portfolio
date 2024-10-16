@@ -43,6 +43,8 @@
   perspective: 1000px; /* Adds 3D perspective */
   position: relative;
   overflow: hidden; /* Ensures contents don't overflow the card */
+  border: 5px solid var(--crd-brder-color); /* Adds a border around the card content */
+  border-radius: 5px; /* Optional: Rounded corners */
 }
 
 .card-side {
@@ -58,11 +60,11 @@
 }
 
 .front {
-  background-color: lightblue;
+  background-color: var(--crd-color-front);
 }
 
 .back {
-  background-color: lightcoral;
+  background-color: var(--crd-color-back);
   transform: rotateY(180deg); /* Initially hides the back by rotating */
 }
 
@@ -121,7 +123,6 @@
 .card.flipped .back {
   transform: rotateY(360deg); /* Back side becomes visible */
 }
-
 
 /* ======================= */
 

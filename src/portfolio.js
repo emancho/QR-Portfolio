@@ -26,48 +26,47 @@ const projects = [
     img: 'https://pubaccessbucket.s3.amazonaws.com/images/cruise-logo.png',
     alt:'The company logo for Cruise Automation',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Tech Stack',
+    stack: ['Go', 'Buffalo', 'Git','ZenDesk'],
   },
   {
     name: 'Microsoft',
     img:'https://pubaccessbucket.s3.amazonaws.com/images/microsoft_logo.png',
     alt:'The company logo for Microsoft',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Tech Stack',
+    stack: ['.NET', 'Azure DevOps', 'GitHub', 'VMs', 'VS Studio'],
   },
   {
     name: 'Intel',
     img: 'https://pubaccessbucket.s3.amazonaws.com/images/intel_logo.png',
     alt:'The company logo for Intel',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Tech Stack',
+    stack: ['React', 'JavaScript', 'F5', 'Jira', 'GitHub', 'DevOps'],
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'Python',
+  'React',
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Front-End',
+  'Back-End',
+  'DevOps',
+  'C#',
+  'Go',
+  'APIs',
+  'Scrum',
+  'GitHub',
+  'Jira',
+  'Agile',
+  'AWS',
+  'Leadership'
 ]
 
 const contact = {

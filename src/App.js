@@ -9,9 +9,6 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
 
-// TEST
-// import FlipCard from './components/FlipCard'
-
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
 
