@@ -13,6 +13,12 @@ const About = () => {
           Hi, I am <span className='about__name'>{name}.</span>
         </h1>
       )}
+
+      {/* The section for the image */}
+      <div className="card-with-border">
+            <h2>This is a card with a solid border!</h2>
+      </div>
+
       {role && <h2 className='about__role'>A {role}.</h2>}
       <p className='about__desc'>
         {description && description}
