@@ -130,8 +130,8 @@
 /* Style for the card with a solid color border */
 .card-with-border {
   width: 300px; /* You can adjust the width as needed */
-  height: 200px; /* You can adjust the height as needed */
-  padding: 20px;
+  height: 350px; /* You can adjust the height as needed */
+  padding: 5px;
   border: 5px solid var(--clr-primary); /* Solid blue border */
   border-radius: 10px; /* Optional: Rounded corners */
   background-color: #fff; /* Background color inside the card */
@@ -141,6 +141,11 @@
   text-align: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
   margin-top: 20px;
+}
+
+.card-with-border img {
+  width: 290px; /* You can adjust the width as needed */
+  height: 345px; /* You can adjust the height as needed */
 }
 
 /* ==============================*/
