@@ -14,6 +14,7 @@ const Projects = () => {
       <div className='projects__grid'>
         {projects.map((project) => (
           <FlipCard
+            key={uniqid()}
             front={
               <div className="image-container">
                 <img src={project.img} alt={project.alt}/>

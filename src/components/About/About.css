@@ -129,8 +129,8 @@
 /*=== Image for About Section ===*/
 /* Style for the card with a solid color border */
 .card-with-border {
-  width: 300px; /* You can adjust the width as needed */
-  height: 350px; /* You can adjust the height as needed */
+  width: 280px; /* You can adjust the width as needed */
+  height: 340px; /* You can adjust the height as needed */
   padding: 5px;
   border: 5px solid var(--clr-primary); /* Solid blue border */
   border-radius: 10px; /* Optional: Rounded corners */
@@ -144,8 +144,8 @@
 }
 
 .card-with-border img {
-  width: 290px; /* You can adjust the width as needed */
-  height: 345px; /* You can adjust the height as needed */
+  width: 280px; /* You can adjust the width as needed */
+  height: 330px; /* You can adjust the height as needed */
 }
 
 /* ==============================*/

@@ -3,10 +3,10 @@ import './Footer.css'
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='https://github.com/rjshkhr/cleanfolio'
+      href='https://eddwothewar.com'
       className='link footer__link'
     >
-      Secret Tunnel
+      Secret Tunnel to Creative Page
     </a>
   </footer>
 )
